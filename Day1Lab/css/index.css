@@ -1,0 +1,106 @@
+html {
+  box-sizing: border-box;
+  /* 16px is the default for most browsers */
+  font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+p {
+  color: white;
+  text-shadow: white 1px 0 5px;
+  display: flex;
+}
+
+body {
+  background: url(/FrontendWeek1/Day1Lab/images/background1.jpg)
+}
+
+.navbar {
+  height: 100%;
+  width: 100%;
+}
+
+.header {
+  width: 100%;
+  height: 100%;
+}
+
+.backward {
+  height: 100%;
+  width: 100%;
+}
+
+.mainlist {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  list-style-type: none;
+  padding: 0px;
+}
+
+.mainlist li {
+  margin: auto;
+  text-align: center;
+}
+
+
+
+.bigtext {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  color: white;
+  text-shadow: white 1px 0 30px;
+}
+
+.littletext {
+  display: flex;
+  width: 100%;
+}
+
+.button {
+  text-decoration: none;
+  padding: 8px 16px;
+}
+
+.button:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.forward {
+  margin: auto;
+  height: 100%;
+  text-align: center;
+}
+
+.previous {
+  background-color: #4caf50;
+}
+
+.next {
+  background-color: #4caf50;
+}
+
+.round {
+  border-radius: 50%;
+}
+
+img {
+  max-height: 100%;
+  min-width: 100%;
+  object-fit: cover;
+  vertical-align: bottom;
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  justify-content: space-between;
+  height: 100vh;
+  flex-grow: 1;
+  padding: 2px;
+}
